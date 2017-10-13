@@ -4,9 +4,9 @@ html {
   font-family: helvetica;
 }
 
-.site-container {
+.container {
   max-width: 960px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 /*HEADER SECTION*/
@@ -51,6 +51,20 @@ nav a {
   padding-right: 2rem;
 }
 
+.banner {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 10rem auto;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  display: inline-block;
+  float: right;
+  position: relative;
+  left: 2rem;
+
+}
+
 /*SERVICES SECTION*/
 
 section.services-img {
@@ -84,7 +98,6 @@ figure {
 
 figcaption {
   text-align: center;
-
 }
 
 figcaption#ruler-truck {
