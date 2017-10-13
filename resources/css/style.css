@@ -135,11 +135,10 @@ article.philosophy {
 
 footer {
   background-color: azure;
+  padding: 4rem 0 4rem 4rem;
 }
 
-footer .logo-title {
-    display: flex;
-    font-size: 1rem;
-    padding: 1rem 0;
-    align-items: center;
+footer img {
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
 }
