@@ -16,6 +16,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
   height: 30rem;
 }
 
@@ -49,6 +50,10 @@ nav a {
   color: white;
   text-decoration: none;
   padding-right: 2rem;
+}
+
+#menu {
+  display: none;
 }
 
 .banner {
@@ -152,7 +157,7 @@ footer img {
 
   .header-background {
     height: 22rem;
-    width: 100%;
+    max-width: 100%;
   }
 
   .banner {
@@ -168,6 +173,79 @@ footer img {
 
   footer {
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-background {
+    height: 17rem;
+    background-position-x: 25%;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #dissapear {
+    display: none;
+  }
+
+  .banner {
+    min-width: 100%;
+    padding: 1rem 0;
+    margin: 9rem 0 0 0;
+    text-size: 1rem;
+    text-align: center;
+    line-height: 1.2rem;
+  }
+
+  .services-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+
+  #margbot {
+    margin-bottom: 1.54rem;
+  }
+
+  figure {
+    font-size: 0.77rem;
+    height: auto;
+  }
+
+  section.info {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+
+  article.philosophy {
+    margin-bottom: 4rem;
+  }
+
+  section h3 {
+    width: 94%;
+    text-align: center;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  footer img {
+    margin: 0;
   }
 
 }
